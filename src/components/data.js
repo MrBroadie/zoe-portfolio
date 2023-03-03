@@ -73,9 +73,9 @@ export const beautyImages = [
   },
   {
     id: 9,
-    title: "punkLook",
+    title: "80sFashion",
     source: punk,
-    project: "Punk",
+    project: "80's Fashion",
   },
 ];
 
