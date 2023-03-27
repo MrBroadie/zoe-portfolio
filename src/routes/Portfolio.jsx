@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { beautyImages, filmImages, sfxImages } from "../components/data";
+import {
+  beautyImages,
+  btsImages,
+  filmImages,
+  sfxImages,
+} from "../components/data";
 import ImageList from "../components/ImageList";
 
 const Portfolio = () => {
@@ -43,6 +48,14 @@ const Portfolio = () => {
         <h3 className={h3Style}>Beauty</h3>
         <div className={imageContainerStyle}>
           {beautyImages.map((image) => (
+            <ImageList key={image.id} image={image} />
+          ))}
+        </div>
+      </section>
+      <section className={sectionStyle}>
+        <h3 className={h3Style}>Behind the scenes</h3>
+        <div className={imageContainerStyle}>
+          {btsImages.map((image) => (
             <ImageList key={image.id} image={image} />
           ))}
         </div>
