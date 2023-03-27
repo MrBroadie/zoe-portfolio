@@ -22,6 +22,81 @@ import glasgowSmile3 from "../images/sfx/glasgowSmile3.png";
 import baldCap from "../images/sfx/baldW.JPG";
 import faceCast from "../images/sfx/faceCast.png";
 
+//bts
+import bruising from "../images/bts/bruising.JPG";
+import deepBruising from "../images/bts/deepBruising.JPG";
+import flatMoulds from "../images/bts/flatMoulds.png";
+import floating from "../images/bts/floating.png";
+import floating2 from "../images/bts/floating2.JPEG";
+import lifeCasting from "../images/bts/lifeCasting.JPG";
+import lifeCasting2 from "../images/bts/lifeCasting2.png";
+import lifeCasting3 from "../images/bts/lifeCasting3.JPG";
+import proBono from "../images/bts/proBono.png";
+import sculptPractice from "../images/bts/sculptPractice.JPEG";
+
+export const btsImages = [
+  {
+    id: 1,
+    title: "bruising",
+    source: bruising,
+    project: "Bruising",
+  },
+  {
+    id: 2,
+    title: "deepBruising",
+    source: deepBruising,
+    project: "Bruising",
+  },
+  {
+    id: 3,
+    title: "flatMoulds",
+    source: flatMoulds,
+    project: "Flat Moulds",
+  },
+  {
+    id: 4,
+    title: "floating",
+    source: floating,
+    project: "Floating",
+  },
+  {
+    id: 5,
+    title: "floating2",
+    source: floating2,
+    project: "Floating",
+  },
+  {
+    id: 6,
+    title: "lifeCasting",
+    source: lifeCasting,
+    project: "Life Casting",
+  },
+  {
+    id: 7,
+    title: "lifeCasting2",
+    source: lifeCasting2,
+    project: "Life Casting",
+  },
+  {
+    id: 8,
+    title: "lifeCasting3",
+    source: lifeCasting3,
+    project: "Life Casting",
+  },
+  {
+    id: 9,
+    title: "proBono",
+    source: proBono,
+    project: "Pro-Bono",
+  },
+  {
+    id: 10,
+    title: "sculptPractice",
+    source: sculptPractice,
+    project: "Sculpt Practice",
+  },
+];
+
 export const beautyImages = [
   {
     id: 1,
