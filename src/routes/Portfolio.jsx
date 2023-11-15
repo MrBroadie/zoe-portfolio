@@ -1,17 +1,9 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import {
-  beautyImages,
-  btsImages,
-  filmImages,
-  sfxImages,
-} from "../components/data";
-import ImageList from "../components/ImageList";
+import { beautyImages, btsImages, filmImages, sfxImages } from "../data/images";
+import SectionList from "../components/portfolio/SectionList";
 
 const Portfolio = () => {
-  const h3Style = "text-4xl font-normal leading-normal mt-0 mb-2 underline";
-  const imageContainerStyle =
-    "grid grid-cols-2 md:grid-cols-4 justify-items-center gap-4 align-items-center";
   const sectionStyle = "flex flex-col md:m-2 p-4";
 
   const location = useLocation();
@@ -29,36 +21,16 @@ const Portfolio = () => {
         Makeup and SFX Artist
       </h2>
       <section className={sectionStyle}>
-        <h3 className={h3Style}>SFX</h3>
-        <div className={imageContainerStyle}>
-          {sfxImages.map((image) => (
-            <ImageList key={image.id} image={image} />
-          ))}
-        </div>
+        <SectionList title="SFX" images={sfxImages} />
       </section>
       <section className={sectionStyle}>
-        <h3 className={h3Style}>Films</h3>
-        <div className={imageContainerStyle}>
-          {filmImages.map((image) => (
-            <ImageList key={image.id} image={image} />
-          ))}
-        </div>
+        <SectionList title="Films" images={filmImages} />
       </section>
       <section className={sectionStyle}>
-        <h3 className={h3Style}>Beauty</h3>
-        <div className={imageContainerStyle}>
-          {beautyImages.map((image) => (
-            <ImageList key={image.id} image={image} />
-          ))}
-        </div>
+        <SectionList title="Beauty" images={beautyImages} />
       </section>
       <section className={sectionStyle}>
-        <h3 className={h3Style}>Behind the scenes</h3>
-        <div className={imageContainerStyle}>
-          {btsImages.map((image) => (
-            <ImageList key={image.id} image={image} />
-          ))}
-        </div>
+        <SectionList title="Extras" images={btsImages} />
       </section>
     </div>
   );

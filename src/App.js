@@ -7,6 +7,7 @@ import Homepage from "./routes/Homepage";
 import Portfolio from "./routes/Portfolio";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+import Details from "./components/portfolio/Details";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="details/:projectName" element={<Details />} />
       </Routes>
       <Footer />
     </>
