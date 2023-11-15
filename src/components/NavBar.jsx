@@ -8,16 +8,16 @@ const NavBar = () => {
   return (
     <div className="flex justify-center items-center h-16">
       <Link className={linkStyle} to="/">
-        Home
+        HOME
       </Link>
       <Link className={linkStyle} to="/portfolio">
-        Portfolio
+        PORTFOLIO
       </Link>
-      <Link className={linkStyle} to="/">
-        About
+      <Link className={linkStyle} to="/about">
+        ABOUT
       </Link>
-      <Link className={linkStyle} to="/portfolio">
-        Contact
+      <Link className={linkStyle} to="/contact">
+        CONTACT
       </Link>
     </div>
   );

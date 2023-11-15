@@ -34,7 +34,7 @@ const Homepage = () => {
           to="/portfolio"
           className="font-bold text-white text-center hover:-translate-y-1 hover:scale-110"
         >
-          PORTFOLIO
+          VIEW PORTFOLIO
         </Link>
       </div>
     </div>
