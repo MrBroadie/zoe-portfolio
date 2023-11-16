@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
-    <div className="bg-beige flex flex-col w-full h-screen-minus-portfolio items-center justify-between overflow-y-auto">
+    <div className="bg-beige flex flex-col w-full h-screen-minus-footer items-center justify-between overflow-y-auto">
       <div className="w-full flex flex-col p-8 justify-center items-center flex-shrink-0">
         <h1 className="text-4xl md:text-5xl lg:text-6xl">ZOE BROAD</h1>
         <h2 className="text-lg font-normal lg:text-xl">

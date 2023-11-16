@@ -14,8 +14,10 @@ module.exports = {
         "spin-slow": "spin 5s linear infinite",
       },
       height: {
-        "screen-minus-footer": "calc(100vh - 200px)",
-        "screen-minus-portfolio": "calc(100vh - 65px)",
+        "screen-minus-footer": "calc(100vh - 65px)",
+      },
+      minHeight: {
+        "screen-minus-footer": "calc(100vh - 65px)",
       },
     },
   },

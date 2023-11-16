@@ -4,7 +4,9 @@ const ImageList = (image) => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate(`/details/${image.image.project}`);
+    navigate(`/details/${image.image.project}`, {
+      state: { project: image.image.project },
+    });
   };
 
   const buttonStyle =
@@ -20,10 +22,10 @@ const ImageList = (image) => {
       <img
         className="h-full w-full object-cover drop-shadow-sm"
         src={image.image.source}
-        alt={image.image.title}
+        alt={image.image.projectTitle}
       />
       <p className=" bg-slate-400 rounded-b-lg text-lg p-2 w-full">
-        {image.image.project}
+        {image.image.projectTitle}
       </p>
     </button>
   );

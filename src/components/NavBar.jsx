@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const linkStyle =
-    "ml-8 underline text-lg md:text-2xl text-slate-100 hover:-translate-y-1 hover:scale-110 ease-in-out delay-50 fadeInAnimation";
+    "md:m-8 m-2 underline text-md md:text-2xl text-slate-100 hover:-translate-y-1 hover:scale-110 ease-in-out delay-50 fadeInAnimation";
 
   return (
     <div className="flex justify-center items-center h-16">
