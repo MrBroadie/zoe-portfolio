@@ -1,6 +1,6 @@
 import React from "react";
-import instagram from "../data/images/favicons/instagram.png";
-import email from "../data/images/favicons/email.png";
+import instagram from "../data/imageData/favicons/instagram.png";
+import email from "../data/imageData/favicons/email.png";
 
 const Footer = () => {
   return (

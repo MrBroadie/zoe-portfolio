@@ -1,6 +1,6 @@
 import React from "react";
-import wBruised from "../data/images/extras/w-beaten.jpg";
-import hIceQ from "../data/images/extras/h-iceq.jpg";
+import wBruised from "../data/imageData/extras/w-beaten.jpg";
+import hIceQ from "../data/imageData/extras/h-iceq.jpg";
 import { Link } from "react-router-dom";
 
 const Homepage = () => {

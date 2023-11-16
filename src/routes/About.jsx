@@ -1,5 +1,5 @@
 import React from "react";
-import zoeApplyingMakeup from "../data/images/homepage/homePage1.png";
+import zoeApplyingMakeup from "../data/imageData/homepage/homePage1.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
