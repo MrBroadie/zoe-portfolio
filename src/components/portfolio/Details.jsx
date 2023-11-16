@@ -16,6 +16,23 @@ const Details = () => {
         <h2 className="text-xl font-medium border-b-2 w-full">
           PROJECT: {project?.name}
         </h2>
+        {project?.topImages && (
+          <>
+            <div className="flex flex-col md:flex-row md:w-4/6 w-full items-center justify-center mb-4  flex-shrink-0">
+              <div className="flex md:h-full m-2">
+                {project?.topImages.map((image, index) => (
+                  <div key={index} className="flex ">
+                    <img
+                      className="h-full w-full object-cover overflow-hidden"
+                      src={image}
+                      alt={`image-${index}`}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
         <p>{project?.description}</p>
         <div className="flex md:m-2 p-4">
           <div className="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-4 align-items-center">

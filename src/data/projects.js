@@ -17,6 +17,7 @@ import beautifulButDeadly4 from "./imageData/extras/h-iceq4.jpg";
 
 //Life Casting
 import lifeCasting from "./imageData/bts/lifeCasting.JPG";
+import faceCast from "./imageData/sfx/faceCast.png";
 import lifeCasting2 from "./imageData/bts/lifeCasting2.png";
 import lifeCasting3 from "./imageData/bts/lifeCasting3.JPG";
 import floating from "./imageData/bts/floating.png";
@@ -62,10 +63,12 @@ export const projectBeautifulButDeadly = {
   name: "Beautiful but deadly",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  topImages: [beautifulButDeadly, beaten],
   images: [
-    beautifulButDeadly,
     beautifulButDeadly2,
+    beaten2,
     beautifulButDeadly3,
+    beaten3,
     beautifulButDeadly4,
   ],
 };
@@ -74,14 +77,21 @@ export const projectLifeCasting = {
   name: "Life Casting",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  images: [lifeCasting, lifeCasting2, floating, lifeCasting3, floating2],
+  images: [
+    lifeCasting,
+    lifeCasting2,
+    faceCast,
+    floating,
+    lifeCasting3,
+    floating2,
+  ],
 };
 
 export const projectInjury = {
   name: "Injury",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  images: [beaten, beaten2, beaten3, bruising, deepBruising],
+  images: [bruising, deepBruising],
 };
 
 export const projectGlam = {
@@ -91,14 +101,15 @@ export const projectGlam = {
   images: [glam, glam2],
 };
 
-export const projectEditorial = {
-  name: "Editorial",
+export const projectRedLipEditorial = {
+  name: "Red Lip Editorial",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  images: [
-    redLipEditorial2,
-    redLipEditorial,
-    eraInspiredEditorial,
-    eraInspiredEditorial2,
-  ],
+  images: [redLipEditorial2, redLipEditorial],
+};
+export const projectEraEditorial = {
+  name: "Era Inspired Editorial",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  images: [eraInspiredEditorial, eraInspiredEditorial2],
 };

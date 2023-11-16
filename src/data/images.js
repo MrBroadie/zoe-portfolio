@@ -1,7 +1,3 @@
-//Beauty
-import glam from "./imageData/beauty/beautyH.png";
-import redLipEditorial2 from "./imageData/beauty/redLipEditorial2.png";
-
 //projects
 import shortFilmNormanAlchy from "./imageData/film/shortFilmNormanAlchy.png";
 import beautifulButDeadly from "./imageData/extras/h-iceq3.jpg";
@@ -10,7 +6,12 @@ import beautifulButDeadly from "./imageData/extras/h-iceq3.jpg";
 import glasgowSmile from "./imageData/sfx/glasgowSmile.png";
 import baldCap from "./imageData/sfx/baldW.JPG";
 import lifeCasting from "./imageData/bts/lifeCasting.JPG";
-import beaten2 from "./imageData/extras/w-beaten2.jpg";
+import bruising from "./imageData/bts/bruising.JPG";
+
+//Beauty
+import glam from "./imageData/beauty/beautyH.png";
+import redLipEditorial2 from "./imageData/beauty/redLipEditorial2.png";
+import eraInspiredEditorial from "./imageData/beauty/eraInspiredEditorial.jpeg";
 
 //projectData
 import {
@@ -20,7 +21,8 @@ import {
   projectLifeCasting,
   projectInjury,
   projectGlam,
-  projectEditorial,
+  projectEraEditorial,
+  projectRedLipEditorial,
 } from "./projects";
 
 export const projectImages = [
@@ -65,7 +67,7 @@ export const sfxImages = [
   {
     id: 4,
     title: "injury",
-    source: beaten2,
+    source: bruising,
     projectTitle: "Injury",
     project: projectInjury,
   },
@@ -83,7 +85,14 @@ export const beautyImages = [
     id: 2,
     title: "redLipEditorial",
     source: redLipEditorial2,
-    projectTitle: "Editorial's",
-    project: projectEditorial,
+    projectTitle: "Red Lip Editorial",
+    project: projectRedLipEditorial,
+  },
+  {
+    id: 3,
+    title: "eraInspiredEditorial",
+    source: eraInspiredEditorial,
+    projectTitle: "Era Inspired Editorial",
+    project: projectEraEditorial,
   },
 ];
