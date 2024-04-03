@@ -1,6 +1,8 @@
 //projects
 import shortFilmNormanAlchy from "./imageData/film/shortFilmNormanAlchy.png";
 import beautifulButDeadly from "./imageData/extras/h-iceq3.jpg";
+import cyclops from "./imageData/cyclops/cyclops.jpeg";
+import tapesOfBedlam from "./imageData/film/tapesOfBedlam.jpeg";
 
 //sfx
 import glasgowSmile from "./imageData/sfx/glasgowSmile.png";
@@ -23,6 +25,8 @@ import {
   projectGlam,
   projectEraEditorial,
   projectRedLipEditorial,
+  projectCyclops,
+  projectBedlam,
 } from "./projects";
 
 export const projectImages = [
@@ -40,6 +44,20 @@ export const projectImages = [
     projectTitle: "CODA - a short student film",
     project: projectCODA,
   },
+  {
+    id: 3,
+    title: "cyclops",
+    source: cyclops,
+    projectTitle: "Cyclops",
+    project: projectCyclops,
+  },
+  {
+    id: 4,
+    title: "Tapes of Bedlam",
+    source: tapesOfBedlam,
+    projectTitle: "Tapes of Bedlam - a short film",
+    project: projectBedlam,
+  },
 ];
 
 export const sfxImages = [
@@ -49,13 +67,6 @@ export const sfxImages = [
     source: glasgowSmile,
     projectTitle: "Glasgow Smile",
     project: projectGlasgowSmile,
-  },
-  {
-    id: 2,
-    title: "baldCap",
-    source: baldCap,
-    projectTitle: "Bald Cap",
-    disabled: true,
   },
   {
     id: 3,
@@ -70,6 +81,13 @@ export const sfxImages = [
     source: bruising,
     projectTitle: "Injury",
     project: projectInjury,
+  },
+  {
+    id: 5,
+    title: "baldCap",
+    source: baldCap,
+    projectTitle: "Bald Cap",
+    disabled: true,
   },
 ];
 

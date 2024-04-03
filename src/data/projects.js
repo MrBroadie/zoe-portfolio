@@ -40,17 +40,39 @@ import eraInspiredEditorial2 from "./imageData/beauty/eraInspiredEditorial2.jpeg
 import redLipEditorial from "./imageData/beauty/redLipEditorial.png";
 import redLipEditorial2 from "./imageData/beauty/redLipEditorial2.png";
 
+//cyclops
+import cyclops from "./imageData/cyclops/cyclops.jpeg";
+import cyclopsFemale from "./imageData/cyclops/cyclopsFemale.jpeg";
+import cyclops2 from "./imageData/cyclops/cyclops2.jpeg";
+import cyclops3 from "./imageData/cyclops/cyclops3.jpeg";
+import cyclops4 from "./imageData/cyclops/cyclops4.jpeg";
+import cyclops5 from "./imageData/cyclops/cyclops5.jpeg";
+import cyclops6 from "./imageData/cyclops/cyclops6.jpeg";
+import cyclops7 from "./imageData/cyclops/cyclops7.jpeg";
+import cyclops8 from "./imageData/cyclops/cyclops8.jpeg";
+import cyclops9 from "./imageData/cyclops/cyclops9.jpeg";
+import cyclops10 from "./imageData/cyclops/cyclops10.jpeg";
+import cyclops11 from "./imageData/cyclops/cyclops11.jpeg";
+import cyclops12 from "./imageData/cyclops/cyclops12.jpeg";
+
+//Tape of Bedlam
+import tapesOfBedlam from "./imageData/film/tapesOfBedlam.jpeg";
+import tapesOfBedlam2 from "./imageData/film/tapesOfBedlam2.jpeg";
+import tapesOfBedlam3 from "./imageData/film/tapesOfBedlam3.jpeg";
+import tapesOfBedlam4 from "./imageData/film/tapesOfBedlam4.jpeg";
+import tapesOfBedlam5 from "./imageData/film/tapesOfBedlam5.jpeg";
+import tapesOfBedlam6 from "./imageData/film/tapesOfBedlam6.jpeg";
+
 export const projectGlasgowSmile = {
   name: "Glasgow Smile",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  description: "Night out gone wrong!",
   images: [glasgowSmile, glasgowSmile2, glasgowSmile3],
 };
 
 export const projectCODA = {
   name: "CODA",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "A short film trailer in which I was the hair and makeup specialist.",
   images: [
     shortFilmNormanAlchy,
     shortFilmTiredLena,
@@ -62,7 +84,7 @@ export const projectCODA = {
 export const projectBeautifulButDeadly = {
   name: "Beautiful but deadly",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "This was the final major project from my Bachelor of Arts (Honours) Degree. It is inspired from the beauty of poisonous animals contrasted with the harm that they can cause. Look no.1 'Beautiful Poison' and Look no.2 'The Harm'.",
   topImages: [beautifulButDeadly, beaten],
   images: [
     beautifulButDeadly2,
@@ -73,10 +95,45 @@ export const projectBeautifulButDeadly = {
   ],
 };
 
+export const projectCyclops = {
+  name: "Cyclops",
+  description:
+    "This was the first of 3 projects in my Master Degree. The project was to create a mammalian half mask in 2 different materials, latex and silicone. I created mine as a bust.",
+  images: [
+    cyclops,
+    cyclopsFemale,
+    cyclops10,
+    cyclops11,
+    cyclops2,
+    cyclops4,
+    cyclops3,
+    cyclops5,
+    cyclops6,
+    cyclops7,
+    cyclops8,
+    cyclops9,
+    cyclops12,
+  ],
+};
+
+export const projectBedlam = {
+  name: "Cyclops",
+  description:
+    "A short film trailer in which I was the hair and makeup specialist.",
+  images: [
+    tapesOfBedlam,
+    tapesOfBedlam2,
+    tapesOfBedlam3,
+    tapesOfBedlam4,
+    tapesOfBedlam5,
+    tapesOfBedlam6,
+  ],
+};
+
 export const projectLifeCasting = {
   name: "Life Casting",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Life casting a face using ‘face coat’ and ‘life form’ followed by plaster bandage. Plaster filled with ‘Herculite 2’ and painted to match the colour of the clay used.",
   images: [
     lifeCasting,
     lifeCasting2,
@@ -88,28 +145,28 @@ export const projectLifeCasting = {
 };
 
 export const projectInjury = {
-  name: "Injury",
+  name: "Casualty",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Makeup and Hair look inspired by Ancient Greece. Designed by myself.",
   images: [bruising, deepBruising],
 };
 
 export const projectGlam = {
   name: "Glam",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Makeup and Hair look inspired by Ancient Greece. Designed by myself.",
   images: [glam, glam2],
 };
 
 export const projectRedLipEditorial = {
   name: "Red Lip Editorial",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Makeup and Hair look inspired by Ancient Greece. Designed by myself.",
   images: [redLipEditorial2, redLipEditorial],
 };
 export const projectEraEditorial = {
   name: "Era Inspired Editorial",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Makeup and Hair look inspired by Ancient Greece. Designed by myself.",
   images: [eraInspiredEditorial, eraInspiredEditorial2],
 };
