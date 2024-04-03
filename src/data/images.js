@@ -14,7 +14,6 @@ import bruising from "./imageData/bts/bruising.JPG";
 import glam from "./imageData/beauty/beautyH.png";
 import redLipEditorial2 from "./imageData/beauty/redLipEditorial2.png";
 import eraInspiredEditorial from "./imageData/beauty/eraInspiredEditorial.jpeg";
-
 //projectData
 import {
   projectCODA,
